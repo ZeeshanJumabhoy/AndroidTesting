@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeTesting">
+    <!-- Add Allure listener here -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+    </listeners>
+
+    <test name="MyAppTest">
+        <classes>
+            <class name="AppTest"/> <!-- Specify the class where your test methods are defined -->
+        </classes>
+    </test>
+</suite>
